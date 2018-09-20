@@ -64,10 +64,10 @@ function onMessageReceived(payload) {
  
     if(message.type === 'JOIN') {
         messageElement.classList.add('event-message');
-        message.content = message.sender + ' joined!';
+        message.content = message.sender + ' a rejoint le chat!';
     } else if (message.type === 'LEAVE') {
         messageElement.classList.add('event-message');
-        message.content = message.sender + ' left!';
+        message.content = message.sender + ' a quitté le chat!';
     } else {
         messageElement.classList.add('chat-message');   
         var usernameElement = document.createElement('strong');

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<title>Tchat Spring Boot</title>
+<title>SpringBoot Tchat</title>
 <link rel="stylesheet" th:href="@{/css/main.css}" />
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -20,7 +20,7 @@
 		<div class="chat-header">
 			<div class="user-container">
 				<span id="username" th:utext="${username}"></span> <a
-					th:href="@{/logout}">Logout</a>
+					th:href="@{/logout}">Deconnexion</a>
 			</div>
 			<h3>Espace Tchat sous SpringBoot</h3>
 		</div>
@@ -33,7 +33,7 @@
 		<form id="messageForm" name="messageForm">
 			<div class="input-message">
 				<input type="text" id="message" autocomplete="off"
-					placeholder="Type a message..." />
+					placeholder="Entrez votre message" />
 				<button type="submit">Envoyer message</button>
 			</div>
 		</form>
