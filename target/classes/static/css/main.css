@@ -7,6 +7,7 @@
 html, body {
     height: 100%;
     overflow: hidden;
+    background-color: black;
 }
   
 #login-page {
@@ -14,7 +15,8 @@ html, body {
 }
  
 .nickname  {
-    color:blue;margin-right:20px;
+    color:red;
+    margin-right:20px;
 }
 .hidden {
     display: none;

@@ -22,7 +22,7 @@ public class HttpHandshakeInterceptor implements HandshakeInterceptor {
     public boolean beforeHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler wsHandler,
             Map<String, Object> attributes) throws Exception {
          
-        logger.info("Call beforeHandshake");
+        logger.info("Appel méthode beforeHandshake");
          
         if (request instanceof ServletServerHttpRequest) {
             ServletServerHttpRequest servletRequest = (ServletServerHttpRequest) request;
@@ -34,7 +34,7 @@ public class HttpHandshakeInterceptor implements HandshakeInterceptor {
  
     public void afterHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler wsHandler,
             Exception ex) {
-        logger.info("Call afterHandshake");
+        logger.info("Appel méthode afterHandshake");
     }
      
 }
