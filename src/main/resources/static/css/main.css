@@ -9,7 +9,15 @@ html, body {
     overflow: hidden;
     background-color: black;
 }
-  
+
+h1{
+	color:white;
+}]
+ 
+h3 {
+    text-align: center;
+} 
+ 
 #login-page {
     text-align: center;
 }
@@ -26,10 +34,14 @@ html, body {
     float: right;
     margin-right:5px;
 }
+
+#username{
+	color: red
+}]
  
 #login-container {
-    background: #f4f6f6 ;
-    border: 2px solid #ccc;
+    background: silver; ;
+    border: 3px solid white;
     width: 100%;
     max-width: 500px;
     display: inline-block;
@@ -57,9 +69,9 @@ html, body {
 }
  
 #chat-container {
-    border: 2px solid #d5dbdb;
-    background-color:  #d5dbdb ;
-    max-width: 500px;
+    border: 3px solid white;
+    background-color:  silver ;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
      
@@ -83,7 +95,7 @@ html, body {
 #chat-container #messageForm {
     padding: 20px;
 }
- 
+
 #chat-container ul li {
     line-height: 1.5rem;
     padding: 10px 20px;

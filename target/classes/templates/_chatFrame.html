@@ -1,0 +1,22 @@
+	<div id="chat-container">
+		<div class="chat-header">
+			<div class="user-container"></div>
+			<h3>Espace Tchat sous SpringBoot</h3>
+		</div>
+
+		<hr>
+		<span id="username" th:utext="${username}"></span> <a
+			th:href="@{/logout}">Deconnexion</a>
+		<hr />
+
+		<div id="connecting">Connection en cours...</div>
+		<ul id="messageArea">
+		</ul>
+		<form id="messageForm" name="messageForm">
+			<div class="input-message">
+				<input type="text" id="message" autocomplete="off"
+					placeholder="Entrez votre message" />
+				<button type="submit">Envoyer message</button>
+			</div>
+		</form>
+	</div>
