@@ -50,12 +50,10 @@ h1{
     position: relative;
     padding: 35px 55px 35px;
     min-height: 250px;
-    position: absolute;
     top: 50%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    margin-top: -160px;
 }
   
  
@@ -89,7 +87,7 @@ h1{
     margin: 0;
     overflow: auto;
     overflow-y: scroll;
-    padding: 0 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
     height: calc(100% - 150px);
 }
   
