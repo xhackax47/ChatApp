@@ -39,6 +39,7 @@ function onConnected() {
 function onError(error) {
     connectingElement.textContent = 'Impossible de se connecter au serveur WebSocket. Rafraichissez la page et réessayer !!';
     connectingElement.style.color = 'red';
+    error.MISSING(event);
 }
  
  
