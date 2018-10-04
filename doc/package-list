@@ -1,2 +1,6 @@
-app
-utils
+fr.xhackax47.chat
+fr.xhackax47.chat.config
+fr.xhackax47.chat.controller
+fr.xhackax47.chat.interceptor
+fr.xhackax47.chat.listener
+fr.xhackax47.chat.model
